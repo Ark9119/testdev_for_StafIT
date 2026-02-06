@@ -7,7 +7,7 @@ GitHub: https://github.com/Ark9119
 
 
 ## Задание:
-[![TASK](https://img.shields.io/badge/License-View-blue)](task)
+[![TASK](https://img.shields.io/badge/task-View-blue)](task)
 
 
 ## О проекте:
@@ -44,7 +44,7 @@ python main.py --files economic1.csv economic2.csv --report average-inflation
 +-----+---------------+----------+
 
 ### Примеры запуска:
-[![Примеры запуска](https://img.shields.io/badge/License-View-blue)](Примеры_запуска.jpg)
+[![Примеры запуска](https://img.shields.io/badge/Launch_examples-View-blue)](Примеры_запуска.jpg)
 
 ## Настройка скрипта:
 Для добавления возможности выводить новые отчёты:
