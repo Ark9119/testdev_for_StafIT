@@ -20,12 +20,12 @@ GitHub: https://github.com/Ark9119
 Доступные отчёты: average-gdp, average-inflation, average-unemployment, average-population
 
 ### Примеры:
-"""bash
+```bash
 python main.py --files economic1.csv economic2.csv --report average-gdp
-"""
-"""bash
+```
+```bash
 python main.py --files economic1.csv economic2.csv --report average-inflation
-"""
+```
 
 ### Пример вывода:
 
@@ -49,7 +49,7 @@ python main.py --files economic1.csv economic2.csv --report average-inflation
 ## Настройка скрипта:
 Для добавления возможности выводить новые отчёты:
 - в reports.py добавить в словарь новые данные 
-"""python
+```python
 REPORTS = {
     'average-gdp': create_average_report('gdp'),
     'average-inflation': create_average_report('inflation'),
@@ -57,20 +57,20 @@ REPORTS = {
     'average-population': create_average_report('population'),
     'average-population': create_average_report('<new_data>'),
 }
-"""
+```
 - запуск для вывода новых отчётов:
-"""bash
+```bash
 python main.py --files economic1.csv economic2.csv --report average-<new_data>
-"""
+```
 
 ## Тестирование:
 Код покрыт тестами на 87%.
 ### Запуск тестов:
-"""bash
+```bash
 pytest
-"""
+```
 
 ### Запуск тестов с покрытием:
-"""bash
+```bash
 pytest --cov=. --cov-report=term-missing
-"""
+```
