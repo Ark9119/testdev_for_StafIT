@@ -28,22 +28,20 @@ python main.py --files economic1.csv economic2.csv --report average-inflation
 """
 
 ### Пример вывода:
-"""Tables
-+-----+---------------+----------+
-|   # | country       |      gdp |
-|-----+---------------+----------|
-|   1 | United States | 23923.7  |
-|   2 | China         | 17810.3  |
-|   3 | Germany       |  4138.33 |
-|   4 | Spain         |  1409.33 |
-|   5 | Mexico        |  1392.67 |
-|   6 | Indonesia     |  1274.33 |
-|   7 | Saudi Arabia  |  1016.33 |
-|   8 | Netherlands   |  1006    |
-|   9 | Turkey        |   927.33 |
-|  10 | Switzerland   |   845    |
-+-----+---------------+----------+
-"""
+
+| Left columns  | Center        |  Right columns |
+|----------     |----------     |----------      |
+|   #           | country       |      gdp       |
+|   1           | United States | 23923.7        |
+|   2           | China         | 17810.3        |
+|   3           | Germany       |  4138.33       |
+|   4           | Spain         |  1409.33       |
+|   5           | Mexico        |  1392.67       |
+|   6           | Indonesia     |  1274.33       |
+|   7           | Saudi Arabia  |  1016.33       |
+|   8           | Netherlands   |  1006          |
+|   9           | Turkey        |   927.33       |
+|  10           | Switzerland   |   845          |
 
 ### Примеры запуска:
 [![Примеры запуска](https://img.shields.io/badge/Launch_examples-View-blue)](Примеры_запуска.jpg)
