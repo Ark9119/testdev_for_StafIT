@@ -28,7 +28,7 @@ python main.py --files economic1.csv economic2.csv --report average-inflation
 """
 
 ### Пример вывода:
-"""text
+"""Tables
 +-----+---------------+----------+
 |   # | country       |      gdp |
 |-----+---------------+----------|
