@@ -29,7 +29,7 @@ python main.py --files economic1.csv economic2.csv --report average-inflation
 
 ### Пример вывода:
 
-| Left columns  | Center        |  Right columns |
+| id            | Country       |  average       |
 |----------     |----------     |----------      |
 |   #           | country       |      gdp       |
 |   1           | United States | 23923.7        |
