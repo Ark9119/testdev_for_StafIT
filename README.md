@@ -28,6 +28,7 @@ python main.py --files economic1.csv economic2.csv --report average-inflation
 """
 
 ### Пример вывода:
+"""
 +-----+---------------+----------+
 |   # | country       |      gdp |
 |-----+---------------+----------|
@@ -42,6 +43,7 @@ python main.py --files economic1.csv economic2.csv --report average-inflation
 |   9 | Turkey        |   927.33 |
 |  10 | Switzerland   |   845    |
 +-----+---------------+----------+
+"""
 
 ### Примеры запуска:
 [![Примеры запуска](https://img.shields.io/badge/Launch_examples-View-blue)](Примеры_запуска.jpg)
